@@ -298,8 +298,7 @@ with tab2:
         name='Historical',
         mode='lines',
         line=dict(color=INTUIT_BLUE, width=3),
-        fill='tozeroy',
-        fillcolor=f'{INTUIT_BLUE}20'
+        fill='tozeroy'
     ))
 
     # Forecast
