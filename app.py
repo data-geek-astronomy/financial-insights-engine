@@ -25,57 +25,10 @@ INTUIT_LIGHT = "#F3F4F6"
 INTUIT_GREEN = "#10B981"
 INTUIT_RED = "#EF4444"
 
-# Custom CSS for Intuit-style UI
-st.markdown(f"""
+# Minimal CSS for Intuit-style UI
+st.markdown("""
     <style>
-        /* Main container styling */
-        .main {{
-            background-color: #FFFFFF;
-        }}
-
-        /* Header styling */
-        .header-title {{
-            color: {INTUIT_DARK};
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-        }}
-
-        .header-subtitle {{
-            color: #6B7280;
-            font-size: 1.1rem;
-            margin-bottom: 2rem;
-        }}
-
-        /* Metric card styling */
-        .metric-card {{
-            background: linear-gradient(135deg, {INTUIT_BLUE}15, {INTUIT_TEAL}15);
-            border-left: 4px solid {INTUIT_BLUE};
-            padding: 1.5rem;
-            border-radius: 8px;
-            margin-bottom: 1rem;
-        }}
-
-        /* Section header */
-        .section-header {{
-            color: {INTUIT_DARK};
-            font-size: 1.5rem;
-            font-weight: 600;
-            margin: 2rem 0 1rem 0;
-            border-bottom: 2px solid {INTUIT_TEAL};
-            padding-bottom: 0.5rem;
-        }}
-
-        /* Tab styling */
-        .stTabs [data-baseweb="tab-list"] button [data-testid="stMarkdownContainer"] p {{
-            font-size: 1rem;
-            font-weight: 500;
-        }}
-
-        /* Sidebar styling */
-        .sidebar .sidebar-content {{
-            background-color: {INTUIT_LIGHT};
-        }}
+        .main { background-color: #FFFFFF; }
     </style>
 """, unsafe_allow_html=True)
 
