@@ -5,7 +5,6 @@ import plotly.graph_objects as go
 import plotly.express as px
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
-from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LinearRegression
 import warnings
 warnings.filterwarnings('ignore')
